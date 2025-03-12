@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.users-list, .articles-list {
+    list-style: none;
+    padding: 0;
+}
+
+.user-item, .article-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.user-info, .article-info {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}

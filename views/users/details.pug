@@ -1,0 +1,11 @@
+extends ../layout
+
+block content
+  h1 User Details
+  .user-info
+    h2 #{user.name}
+    p Age: #{user.age}
+    if user.email
+      p Email: #{user.email}
+  .actions
+    a(href="/users") Back to users list
